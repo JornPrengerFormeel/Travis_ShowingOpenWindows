@@ -12,4 +12,5 @@ awesome|yes, failed
 matchbox|yes, failed
 dwn|no, TODO
 stumpWM|no, TODO
+xmonad|no, TODO
 
