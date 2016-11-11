@@ -10,4 +10,6 @@ i3|yes, failed
 wmaker|yes, failed
 awesome|yes, failed
 matchbox|yes, failed
+dwn|no, TODO
+stumpWM|no, TODO
 
