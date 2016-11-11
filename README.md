@@ -5,9 +5,9 @@ The window managers
 
 window manager | tested
 ---|---
-xfwm4|yes
-i3|yes
-wmaker|yes
-awesome|TODO
-matchbox|TODO
+xfwm4|yes, failed
+i3|yes, failed
+wmaker|yes, failed
+awesome|yes, failed
+matchbox|yes, failed
 
