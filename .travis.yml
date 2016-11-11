@@ -1,0 +1,5 @@
+script:
+  - echo "Hallo!"
+  - echo "Hello!"
+  - echo "Salut!"
+  
