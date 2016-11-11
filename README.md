@@ -3,6 +3,8 @@
 
 The window magagers, are they tested:
 
+
+window manager | tested?
 ---|---
 xfwm4|yes
 i3|yes
