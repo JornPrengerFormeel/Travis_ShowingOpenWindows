@@ -3,10 +3,10 @@
 
 The window magagers, are they tested:
 
+---|---
 xfwm4|yes
 i3|yes
 wmaker|yes
 awesome|TODO
 matchbox|TODO
 
----|---
