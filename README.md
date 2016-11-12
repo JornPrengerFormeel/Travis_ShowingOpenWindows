@@ -14,3 +14,6 @@ dwn|no, TODO
 stumpWM|no, TODO
 xmonad|no, TODO
 
+how to set up window managers with qt and travis:
+
+
