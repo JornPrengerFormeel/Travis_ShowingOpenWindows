@@ -2,10 +2,7 @@ sudo: require
 
 before_install:
   - sudo apt-get -qq update
-  - sudo apt-get -y install cowsay
+  - sudo apt-get -y install dwm
 
 script:
-  - echo "Hoi ik ben Jorn en das echt vet vet!"
-  - echo "Hello!"
-  - echo "Salut!"
-  - cowsay "Hallo Jorn"
+  - dwm
