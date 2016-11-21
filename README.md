@@ -5,6 +5,7 @@ The window managers
 
 *wmctrl is only compatible with EWMH- and NetWM-compatible X Window window manager*
 *you could also use xlsclients, it works on the terminal*
+<img src="xlsclientsinterminal.png" alt="Terminal">
 
 
 
