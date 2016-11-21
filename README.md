@@ -5,6 +5,8 @@
 
 *you could also use xlsclients, it works on the terminal*
 
+:octocat:
+
 <img src="xlsclientsinterminal.png" alt="Terminal">
 
 
