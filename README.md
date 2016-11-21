@@ -21,6 +21,4 @@ stumpWM|no, TODO
 xmonad|no, TODO
 
 
-how to set up window managers with travis:
-
 
