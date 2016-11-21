@@ -5,9 +5,13 @@
 
 *you could also use xlsclients, it works on the terminal*
 
-:octocat:
+:octocat: xlsclients is very detailed
 
 <img src="xlsclientsinterminal.png" alt="Terminal">
+
+:octocat: wmctrl is not so detailed
+
+<img src="wmctrlinterminal.png" alt="Terminal">
 
 
 window manager | tested
