@@ -3,6 +3,11 @@
 
 The window managers
 
+*wmctrl is only compatible with EWMH- and NetWM-compatible X Window window manager*
+*you could also use xlsclients, it works on the terminal*
+
+
+
 window manager | tested
 ---|---
 xfwm4|yes, failed
