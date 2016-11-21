@@ -1,5 +1,5 @@
 # showing-open-windows-in-travis
-[![Build Status](https://travis-ci.org/jorn600/howyouwantitiwantitcoffeesmellinggood.svg?branch=master)](https://travis-ci.org/jorn600/howyouwantitiwantitcoffeesmellinggood)
+[![Build Status](https://travis-ci.org/jorn600/showing-open-windows-in-travis.svg?branch=master)](https://travis-ci.org/jorn600/showing-open-windows-in-travis)
 
 The window managers
 
