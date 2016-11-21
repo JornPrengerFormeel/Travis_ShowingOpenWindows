@@ -1,8 +1,6 @@
 # showing-open-windows-in-travis
 [![Build Status](https://travis-ci.org/jorn600/showing-open-windows-in-travis.svg?branch=master)](https://travis-ci.org/jorn600/showing-open-windows-in-travis)
 
-The window managers
-
 *wmctrl is only compatible with EWMH- and NetWM-compatible X Window window manager*
 
 *you could also use xlsclients, it works on the terminal*
