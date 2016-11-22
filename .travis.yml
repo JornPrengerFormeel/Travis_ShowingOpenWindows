@@ -8,5 +8,7 @@ before_script:
     
   
 script:  
+  - gedit test
+  - leafpad one
   - xlsclients -l
 
