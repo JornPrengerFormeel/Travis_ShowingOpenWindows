@@ -1,5 +1,10 @@
 sudo: required
 
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y leafpad
+  - sudo apt-get install -y gedit
+
 # Start virtual X server, from https://docs.travis-ci.com/user/gui-and-headless-browsers/
 before_script:
   - "export DISPLAY=:99.0"
