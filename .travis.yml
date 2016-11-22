@@ -2,7 +2,6 @@ sudo: required
 
 install:
   - sudo apt-get install -y leafpad
-  - sudo apt-get install -y gedit
 
 # Start virtual X server, from https://docs.travis-ci.com/user/gui-and-headless-browsers/
 before_script:
@@ -12,9 +11,9 @@ before_script:
     
   
 script:  
-  - gedit "test"
+  - leafpad "test"
   - leafpad "one"
-  - gedit "two"
+  - leafpad "two"
   - leafpad "three"
   - xlsclients -l
 
