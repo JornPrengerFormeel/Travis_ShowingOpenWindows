@@ -5,7 +5,7 @@ install:
 
 # Start virtual X server, from https://docs.travis-ci.com/user/gui-and-headless-browsers/
 before_script:
-  - Xvfb :99 -screen 0 1024x768x24 +extension RANDR &
+  - "Xvfb :99 -screen 0 1024x768x24 +extension RANDR &"
   - "sh -e /etc/init.d/xvfb start"
   - "export DISPLAY=:99.0"
   - sleep 3 # give xvfb some time to start
