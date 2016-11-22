@@ -7,5 +7,5 @@ before_script:
   - sleep 3 # give xvfb some time to start
 
 script:
-  - xslclients -l
+  - xlsclients -l
 
