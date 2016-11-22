@@ -12,7 +12,9 @@ before_script:
     
   
 script:  
-  - gedit test
-  - leafpad one
+  - gedit "test"
+  - leafpad "one"
+  - gedit "two"
+  - leafpad "three"
   - xlsclients -l
 
