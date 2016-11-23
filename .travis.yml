@@ -19,7 +19,8 @@ install:
   #- sleep 3 # give xvfb some time to start
     
   
-script: phantomjs testrunner.js
+script: 
+  - phantomjs testrunner.js
   - leafpad "test"
   - leafpad "one"
   - leafpad "two"
