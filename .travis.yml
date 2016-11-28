@@ -20,6 +20,7 @@ install:
     
   
 script: 
+  - phantomjs test runner.js
   - leafpad "test"
   - leafpad "one"
   - leafpad "two"
