@@ -1,29 +1,24 @@
-sudo: required
-
-before_install:
-# Actually try this way (https://docs.travis-ci.com/user/gui-and-headless-browsers/#Using-xvfb-to-Run-Tests-That-Require-a-GUI)
-#because we need to set the RANDR extention according to http://stackoverflow.com/questions/17944234/xlib-extension-randr-missing-on-display-21-trying-to-run-headless-googl
-#like this: "Xvfb :99 -screen 0 1024x768x24 +extension RANDR &"
-# Together that becomes:
-- "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1024x768x24 +extension RANDR"
-
-
-install:
-  - sudo apt-get install -y leafpad
-
-# Commented out the bit below... for now, because of what is now in before_install
-# Start virtual X server, from https://docs.travis-ci.com/user/gui-and-headless-browsers/
-#before_script:
-  #- "sh -e /etc/init.d/xvfb start"
-  #- "export DISPLAY=:99.0"
-  #- sleep 3 # give xvfb some time to start
-    
-  
-script: 
-  - phantomjs test runner.js
-  - leafpad "test"
-  - leafpad "one"
-  - leafpad "two"
-  - leafpad "three"
-  - xlsclients -l
-
+{
+  "sudo": "required",
+  "dist": "trusty",
+  "before_install": [
+    "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1024x768x24 +extension RANDR"
+  ],
+  "install": [
+    "sudo apt-get install -y leafpad"
+  ],
+  "before_script": [
+    "export DISPLAY=:99.0",
+    "sleep 3"
+  ],
+  "script": [
+    "phantomjs testrunner.js",
+    "sleep 5",
+    "leafpad test &",
+    "sleep 2",
+    "xlsclients -l"
+  ],
+  "language": "ruby",
+  "group": "stable",
+  "os": "linux"
+}
