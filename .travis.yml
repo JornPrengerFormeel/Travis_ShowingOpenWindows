@@ -17,6 +17,8 @@
     "leafpad \"onetwothree.txt\" &",
     "sleep 2",
     "xlsclients -l"
+    "sleep 1"
+    "xdotool type --window 0x200001 test"
   ],
   "language": "ruby",
   "group": "stable",
