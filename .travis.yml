@@ -12,8 +12,8 @@
     "sleep 3"
   ],
   "script": [
-    "leafpad test &",
-    "leafpad test &",
+    "leafpad test1 &",
+    "leafpad test2 &",
     "sleep 2",
     "xlsclients -l"
   ],
