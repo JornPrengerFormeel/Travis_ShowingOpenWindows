@@ -13,8 +13,8 @@
     "sleep 3"
   ],
   "script": [
-    "leafpad test1 &",
-    "leafpad test2 &",
+    "leafpad \"test.txt\"",
+    "leafpad \"onetwothree.txt\"",
     "sleep 2",
     "xlsclients -l"
   ],
