@@ -12,8 +12,6 @@
     "sleep 3"
   ],
   "script": [
-    "phantomjs testrunner.js",
-    "sleep 5",
     "leafpad test &",
     "sleep 2",
     "xlsclients -l"
