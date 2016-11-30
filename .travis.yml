@@ -18,7 +18,9 @@
     "sleep 2",
     "xlsclients -l",
     "sleep 1",
-    "xdotool type --window 0x200001 test"
+    "xdotool type --window 0x200001 test",
+    "sleep 1",
+    "xdotool search --class leafpad windowactivate"
   ],
   "language": "ruby",
   "group": "stable",
