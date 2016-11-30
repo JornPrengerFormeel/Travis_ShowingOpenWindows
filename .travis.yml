@@ -22,7 +22,9 @@
     "sleep 1",
     "xdotool type --window 0x200001 ctrl+s+a",
     "xdotool type een.txt",
-    "xdotool type Enter"
+    "xdotool type Enter",
+    "sleep 2",
+    "xlsclients -l"
   ],
   "language": "ruby",
   "group": "stable",
