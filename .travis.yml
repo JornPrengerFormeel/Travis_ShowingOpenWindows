@@ -13,6 +13,7 @@ before_script:
 
 script:
   - leafpad "test.txt" &
+  - sleep 3
   - xlsclients -l
   - xdotool type "test"
   - xdotool key ctrl+s
@@ -20,6 +21,7 @@ script:
   - ls
   - cat test.txt
   - leafpad "onetwothree.txt" &
+  - sleep 3
   - xdotool type "unosdostres"
   - xdotool key ctrl+s
   - sleep 10
