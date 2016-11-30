@@ -24,7 +24,7 @@
     "xdotool type een.txt",
     "xdotool type Enter",
     "sleep 2",
-    " -ls",
+    "-ls",
     "sleep 3"
     
   ],
