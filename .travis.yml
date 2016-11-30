@@ -14,12 +14,8 @@ before_script:
 script:
   - leafpad "test.txt" &
   - leafpad "onetwothree.txt" &
-  - sleep 2
   - xlsclients -l
-  - sleep 1
   - xdotool windowfocus 0x200001
   - xdotool type "test"
-  - sleep 1
-  - xdotool key ctrl+s
-  - sleep 2
+  - xdotool key ctrl+s key ctrl+q
   - ls
