@@ -13,9 +13,13 @@ before_script:
 
 script:
   - leafpad "test.txt" &
-  - leafpad "onetwothree.txt" &
   - xlsclients -l
   - xdotool type "test"
   - xdotool key ctrl+s
-  - xdotool key ctrl+q
   - ls
+  - cat test.txt
+  - leafpad "onetwothree.txt" &
+  - xdotool type "unosdostres"
+  - xdotool key ctrl+s
+  - ls
+  - cat onetwothree.txt
