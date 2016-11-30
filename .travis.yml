@@ -16,12 +16,12 @@ script:
   - xlsclients -l
   - xdotool type "test"
   - xdotool key ctrl+s
-  - sleep 2
+  - sleep 10
   - ls
   - cat test.txt
   - leafpad "onetwothree.txt" &
   - xdotool type "unosdostres"
   - xdotool key ctrl+s
-  - sleep 2
+  - sleep 10
   - ls
   - cat onetwothree.txt
