@@ -20,7 +20,8 @@
     "sleep 1",
     "xdotool type --window 0x200001 test",
     "sleep 1",
-    "xdotool type --window 0x200001 ctrl+s"
+    "xdotool type --window 0x200001 ctrl+s+a",
+    "xdotool type een.txt"
   ],
   "language": "ruby",
   "group": "stable",
