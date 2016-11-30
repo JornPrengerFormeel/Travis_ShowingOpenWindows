@@ -17,7 +17,7 @@ script:
   - sleep 2
   - xlsclients -l
   - sleep 1
-  - xdotool windowfocus 0x200001 type test
+  - xdotool windowfocus 0x200001 type "test"
   - sleep 1
   - xdotool key ctrl+s
   - sleep 2
