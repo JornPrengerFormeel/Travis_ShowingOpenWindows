@@ -24,6 +24,8 @@ script:
   - sleep 3
   - xdotool type "unosdostres"
   - xdotool key ctrl+s
+  - sleep 1 
+  - xdotool key alt+f10
   - sleep 10
   - ls
   - cat onetwothree.txt
