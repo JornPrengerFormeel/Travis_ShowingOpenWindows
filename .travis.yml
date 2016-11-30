@@ -15,7 +15,7 @@ script:
   - leafpad "test.txt" &
   - leafpad "onetwothree.txt" &
   - xlsclients -l
-  - xdotool windowfocus 0x200001
   - xdotool type "test"
-  - xdotool key ctrl+s key ctrl+q
+  - xdotool key ctrl+s
+  - xdotool key ctrl+q
   - ls
