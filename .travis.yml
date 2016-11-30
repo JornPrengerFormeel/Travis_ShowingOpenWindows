@@ -1,28 +1,26 @@
----
 sudo: required
-dist: trusty
+
 before_install:
-- "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile
-  --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1024x768x24 +extension RANDR"
+  - "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1024x768x24 +extension RANDR"
+
 install:
-- sudo apt-get install -y leafpad
-- sudo apt-get install -qq xdotool
+  - sudo apt-get install -y leafpad
+  - sudo apt-get install -qq xdotool
+
 before_script:
-- export DISPLAY=:99.0
-- sleep 3
+  - export DISPLAY=:99.0
+  - sleep 3
+
 script:
-- leafpad "test.txt" &
-- leafpad "onetwothree.txt" &
-- sleep 2
-- xlsclients -l
-- sleep 1
-- xdotool type --window 0x200001 test
-- sleep 1
-- xdotool type --window 0x200001 ctrl+s+a
-- xdotool type een.txt
-- xdotool type Enter
-- sleep 2
-- ls
-language: ruby
-group: stable
-os: linux
+  - leafpad "test.txt" &
+  - leafpad "onetwothree.txt" &
+  - sleep 2
+  - xlsclients -l
+  - sleep 1
+  - xdotool type --window 0x200001 test
+  - sleep 1
+  - xdotool type --window 0x200001 ctrl+s+a
+  - xdotool type een.txt
+  - xdotool type Enter
+  - sleep 2
+  - ls
