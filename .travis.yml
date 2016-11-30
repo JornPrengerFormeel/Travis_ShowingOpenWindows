@@ -17,10 +17,8 @@ script:
   - sleep 2
   - xlsclients -l
   - sleep 1
-  - xdotool type --window 0x200001 test
+  - xdotool windowfocus 0x200001 type test
   - sleep 1
-  - xdotool type --window 0x200001 ctrl+s+a
-  - xdotool type een.txt
-  - xdotool type Enter
+  - xdotool key ctrl+s
   - sleep 2
   - ls
