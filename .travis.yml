@@ -24,9 +24,7 @@
     "xdotool type een.txt",
     "xdotool type Enter",
     "sleep 2",
-    "-ls",
-    "sleep 3"
-    
+    "ls"    
   ],
   "language": "ruby",
   "group": "stable",
