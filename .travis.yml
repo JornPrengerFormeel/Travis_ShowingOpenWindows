@@ -6,6 +6,7 @@ before_install:
 install:
   - sudo apt-get install -y leafpad
   - sudo apt-get install -qq xdotool
+  - sudo apt-get install wmctrl
 
 before_script:
   - export DISPLAY=:99.0
