@@ -14,7 +14,7 @@ before_script:
 script:
   - leafpad "test.txt" &
   - sleep 3
-  - xlsclients -l
+  - wmctrl -l
   - xdotool type "test"
   - xdotool key ctrl+s
   - sleep 10
